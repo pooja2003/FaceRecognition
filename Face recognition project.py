@@ -41,17 +41,6 @@ def markAttendance(name):
             f.writelines(f'')
 
 
-# markAttendance(date):
-#     with open('Attendance.csv','r+') as f:
-#         myDataList = f.readlines()
-#         nameList = []
-#         for line in myDataList:
-#             entry = line.split(',')
-#             nameList.append(entry[0])
-#         if name not in nameList:
-#             now = datetime.now()
-#             dtString = now.strfdate('%D:%M:%Y')
-#             f.writelines(f'\n{date},{dtString}')
 encodeListKnown = findEncodings(images)
 print('Encoding Complete')
 
